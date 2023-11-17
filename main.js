@@ -13,15 +13,3 @@ const html =[]
         $modalBody.innerHTML = `<img src="images/${HDpictures, e.target.dataset}" alt="${pictures[i].name}">`
         
     })
-
-// export default function PicDivs () {
-// return <div> 
-//     {pics.map(
-//          pic =>
-//         <img src={pic} alt="test" width="20" height="20"/> 
-//        )}
-//  </div> }
-
- /** Uses code https://www.reddit.com/r/learnjavascript/comments/1764m6c/dynamically_adding_pictures_into_a_grid/*/
-
- 
