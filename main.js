@@ -10,7 +10,7 @@ const html =[]
     const $modalBody = document.querySelector('.modal-body')
 
     document.getElementById('pictures').addEventListener('click', function(){
-        $modalBody.innerHTML = `<img src="images/${e.target.dataset.index}" alt="${pictures[i].name}">`
+        $modalBody.innerHTML = `<img src="images/${HDpictures, e.target.dataset}" alt="${pictures[i].name}">`
         
     })
 
